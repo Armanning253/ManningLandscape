@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+
+// ------------ COMPONENT --------------->
 import App from './App';
+// ------------ DATA CONTEXT --------------->
+import { ProjectProvider } from './context/projectContext';
+// ------------ WEBVITALS --------------->
 import reportWebVitals from './reportWebVitals';
+// ------------ STYLES --------------->
+import GlobalStyle from './theme/globalStyles';
+import Theme from './theme/theme';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <ProjectProvider>
+      <ThemeProvider theme={Theme}>
+        <GlobalStyle />
+        <App />
+      </ThemeProvider>
+    </ProjectProvider>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
