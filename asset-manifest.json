@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ManningLandscape/react-deploy/static/css/main.6ec355d1.chunk.css",
+    "main.js": "/ManningLandscape/react-deploy/static/js/main.3f9d72b6.chunk.js",
+    "main.js.map": "/ManningLandscape/react-deploy/static/js/main.3f9d72b6.chunk.js.map",
+    "runtime-main.js": "/ManningLandscape/react-deploy/static/js/runtime-main.4dec88c4.js",
+    "runtime-main.js.map": "/ManningLandscape/react-deploy/static/js/runtime-main.4dec88c4.js.map",
+    "static/js/2.7e010de9.chunk.js": "/ManningLandscape/react-deploy/static/js/2.7e010de9.chunk.js",
+    "static/js/2.7e010de9.chunk.js.map": "/ManningLandscape/react-deploy/static/js/2.7e010de9.chunk.js.map",
+    "static/js/3.d7d2e769.chunk.js": "/ManningLandscape/react-deploy/static/js/3.d7d2e769.chunk.js",
+    "static/js/3.d7d2e769.chunk.js.map": "/ManningLandscape/react-deploy/static/js/3.d7d2e769.chunk.js.map",
+    "index.html": "/ManningLandscape/react-deploy/index.html",
+    "static/css/main.6ec355d1.chunk.css.map": "/ManningLandscape/react-deploy/static/css/main.6ec355d1.chunk.css.map",
+    "static/js/2.7e010de9.chunk.js.LICENSE.txt": "/ManningLandscape/react-deploy/static/js/2.7e010de9.chunk.js.LICENSE.txt",
+    "static/media/2b.0c7c8932.jpg": "/ManningLandscape/react-deploy/static/media/2b.0c7c8932.jpg",
+    "static/media/manningScape1.d740b3cd.jpg": "/ManningLandscape/react-deploy/static/media/manningScape1.d740b3cd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dec88c4.js",
+    "static/js/2.7e010de9.chunk.js",
+    "static/css/main.6ec355d1.chunk.css",
+    "static/js/main.3f9d72b6.chunk.js"
+  ]
+}
