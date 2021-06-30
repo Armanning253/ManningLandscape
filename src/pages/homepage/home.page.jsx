@@ -13,7 +13,7 @@ import heroImg from '../../images/manning-landscape-images/Brick-House/2b.jpg';
 // --------- STYLES --------
 import { HomePageContainer } from './home.page.styles';
 
-// ------------- FUNCTION ------------>
+// ------------- FUNCTION ------------> 
 const Homepage = () => {
     const [project, setProject] = useContext(ProjectContext);
     return (
