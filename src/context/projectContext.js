@@ -8,37 +8,38 @@ export const ProjectProvider = (props) => {
         {
             id: 1,
             title: 'brick house',
-            altImg: 'landScape',
-            beforeImage: '/manning-landscape-images/Brick-House/before.jpg',
-            afterImage: '/manning-landscape-images/Brick-House/main.jpg',
+            altImg: 'landScaped hill side of house',
+            beforeImage: '/manning-landscape-images/brick/before.jpg',
+            afterImage: '/images/manning-landscape-images/Brick-House/2b.jpg',
             aboutText: 'From Brick design to complete landscape installation, our skilled artisans transform urban landscapes.',
             buttonText: 'view brick house',
             linkUrl: '',
             imageGallory: [
                 {
+
                     id: 1,
-                    imgUrl: '/manning-landscape-images/Brick-House/before.jpg',
+                    imgUrl: '/manning-landscape-images/brick/before.jpg',
                     alt: 'brick house landscape'
                 },
                 {
                     id: 2,
-                    imgUrl: '/manning-landscape-images/Brick-House/before2.jpg'
+                    imgUrl: '/manning-landscape-images/brick/before2.jpg'
                 },
                 {
                     id: 3,
-                    imgUrl: '/manning-landscape-images/Brick-House/main.jpg'
+                    imgUrl: '/manning-landscape-images/brick/main.jpg'
                 },
                 {
                     id: 4,
-                    imgUrl: '/manning-landscape-images/Brick-House/main2.jpg'
+                    imgUrl: '/manning-landscape-images/brick/main2.jpg'
                 },
                 {
                     id: 5,
-                    imgUrl: '/manning-landscape-images/Brick-House/flowerBed1.jpg'
+                    imgUrl: '/manning-landscape-images/brick/flowerBed1.jpg'
                 },
                 {
                     id: 6,
-                    imgUrl: '/manning-landscape-images/Brick-House/flowerBed2.jpg'
+                    imgUrl: '/manning-landscape-images/brick/flowerBed2.jpg'
                 }
             ]
         },
@@ -142,6 +143,7 @@ export const ProjectProvider = (props) => {
             beforeImage: '/manning-landscape-images/landscape/before2.jpg',
             afterImage: '/manning-landscape-images/landscape/main2.jpg',
             aboutText: 'skilled artisans transform yard landscapes.',
+            buttonText: 'view Landscape',
             id: 4,
             linkUrl: '',
             imageGallory: [
@@ -193,7 +195,8 @@ export const ProjectProvider = (props) => {
             altImg: 'patios and pathways',
             beforeImage: '/manning-landscape-images/patio-pathway/before.jpg',
             afterImage: '/manning-landscape-images/patio-pathway/main.png',
-            aboutText: '',
+            aboutText: 'beautiful landscaped patios and pathways transform your yard to something you love.',
+            buttonText: 'view Patios',
             id: 5,
             linkUrl: '',
             imageGallory: [
@@ -253,7 +256,8 @@ export const ProjectProvider = (props) => {
             altImg: 'concrete block wall',
             beforeImage: '/manning-landscape-images/wall/before.jpg',
             afterImage: '/manning-landscape-images/wall/main.jpg',
-            aboutText: '',
+            aboutText: 'Add usable space to your yard of level that slop yard so kids can play.',
+            buttonText: 'VIEW WALLS',
             id: 6,
             linkUrl: '',
             imageGallory: [
@@ -289,7 +293,8 @@ export const ProjectProvider = (props) => {
             altImg: 'water feature',
             beforeImage: '/manning-landscape-images/water-features/before.jpg',
             afterImage: '/manning-landscape-images/water-features/main.jpg',
-            aboutText: '',
+            aboutText: 'Add some traquility to your life enjoy a pleasent water feature to your ',
+            buttonText: 'view Water Features',
             id: 7,
             linkUrl: '',
             imageGallory: [
