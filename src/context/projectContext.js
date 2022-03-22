@@ -1,5 +1,33 @@
 import React, { useState, createContext } from 'react';
 
+// <---------- BRICK HOUSE -------->
+import BrickBefore from '../images/manning-landscape-images/Brick-House/0b.jpg';
+import BrickAfter from '../images/manning-landscape-images/Brick-House/3b.jpg';
+// <---------- CONCRETE HOUSE -------->
+import ConcreteAfter from '../images/manning-landscape-images/concrete-house/C5.jpg';
+import ConcreteBefore from '../images/manning-landscape-images/concrete-house/C6.jpg';
+// <---------- GIG HARGOR HOUSE -------->
+import GigHarborAfter from '../images/manning-landscape-images/gig-harbor-house/11.jpg';
+import GigHarborBefore from '../images/manning-landscape-images/gig-harbor-house/9.jpg';
+
+// <---------- LANDSCAPE -------->
+import LandscapeAfter from '../images/manning-landscape-images/landscape/L4.jpg';
+import LandscapeBefore from '../images/manning-landscape-images/landscape/L1.jpg';
+
+// <---------- PATIO PATHWAY -------->
+import PatioAfter from '../images/manning-landscape-images/patio-pathway/p11.jpg';
+import PatioBefore from '../images/manning-landscape-images/patio-pathway/p13.jpg';
+// <---------- WALL -------->
+import WallAfter from '../images/manning-landscape-images/wall/wall3.jpg';
+import WallBefore from '../images/manning-landscape-images/wall/wall5.jpg';
+// <---------- WATER FEATURES -------->
+import WaterFeatureAfter from '../images/manning-landscape-images/water-features/w1.jpg';
+import WaterFeatureBefore from '../images/manning-landscape-images/water-features/w2.jpg';
+
+
+
+
+
 export const ProjectContext = createContext();
 
 export const ProjectProvider = (props) => {
@@ -9,8 +37,8 @@ export const ProjectProvider = (props) => {
             id: 1,
             title: 'brick house',
             altImg: 'landScaped hill side of house',
-            beforeImage: '/manning-landscape-images/brick/before.jpg',
-            afterImage: '/images/manning-landscape-images/Brick-House/2b.jpg',
+            beforeImage: BrickBefore,
+            afterImage: BrickAfter,
             aboutText: 'From Brick design to complete landscape installation, our skilled artisans transform urban landscapes.',
             buttonText: 'view brick house',
             linkUrl: '',
@@ -18,7 +46,7 @@ export const ProjectProvider = (props) => {
                 {
 
                     id: 1,
-                    imgUrl: '/manning-landscape-images/brick/before.jpg',
+                    imgUrl: '../images/manning-landscape-images/Brick-House/1b.jpg',
                     alt: 'brick house landscape'
                 },
                 {
@@ -46,8 +74,8 @@ export const ProjectProvider = (props) => {
         {
             title: 'Concrete house',
             altImg: 'hardScape',
-            beforeImage: '/manning-landscape-images/concrete-house/before.jpg',
-            afterImage: '/manning-landscape-images/concrete-house/main.jpg',
+            beforeImage: ConcreteBefore,
+            afterImage: ConcreteAfter,
             aboutText: 'skilled artisans transform urban landscapes.',
             buttonText: 'view hardscape',
             id: 2,
@@ -83,8 +111,8 @@ export const ProjectProvider = (props) => {
         {
             title: 'Gig Harbor house',
             altImg: 'beatiful yard',
-            beforeImage: '/manning-landscape-images/gig-harbor-house/before.jpg',
-            afterImage: '/manning-landscape-images/gig-harbor-house/main.jpg',
+            beforeImage: GigHarborBefore,
+            afterImage: GigHarborAfter,
             aboutText: 'skilled artisans transform urban landscapes.',
             buttonText: 'view yard',
             id: 3,
@@ -140,8 +168,8 @@ export const ProjectProvider = (props) => {
         {
             title: 'Landscape house',
             altImg: 'landscaped yard',
-            beforeImage: '/manning-landscape-images/landscape/before2.jpg',
-            afterImage: '/manning-landscape-images/landscape/main2.jpg',
+            beforeImage: LandscapeBefore,
+            afterImage: LandscapeAfter,
             aboutText: 'skilled artisans transform yard landscapes.',
             buttonText: 'view Landscape',
             id: 4,
@@ -193,8 +221,8 @@ export const ProjectProvider = (props) => {
         {
             title: "patios and pathways",
             altImg: 'patios and pathways',
-            beforeImage: '/manning-landscape-images/patio-pathway/before.jpg',
-            afterImage: '/manning-landscape-images/patio-pathway/main.png',
+            beforeImage: PatioBefore,
+            afterImage: PatioAfter,
             aboutText: 'beautiful landscaped patios and pathways transform your yard to something you love.',
             buttonText: 'view Patios',
             id: 5,
@@ -254,8 +282,8 @@ export const ProjectProvider = (props) => {
         {
             title: "walls",
             altImg: 'concrete block wall',
-            beforeImage: '/manning-landscape-images/wall/before.jpg',
-            afterImage: '/manning-landscape-images/wall/main.jpg',
+            beforeImage: WallBefore,
+            afterImage: WallAfter,
             aboutText: 'Add usable space to your yard of level that slop yard so kids can play.',
             buttonText: 'VIEW WALLS',
             id: 6,
@@ -291,8 +319,8 @@ export const ProjectProvider = (props) => {
         {
             title: "water features",
             altImg: 'water feature',
-            beforeImage: '/manning-landscape-images/water-features/before.jpg',
-            afterImage: '/manning-landscape-images/water-features/main.jpg',
+            beforeImage: WaterFeatureBefore,
+            afterImage: WaterFeatureAfter,
             aboutText: 'Add some traquility to your life enjoy a pleasent water feature to your ',
             buttonText: 'view Water Features',
             id: 7,

@@ -67,9 +67,11 @@ export const CardButton = styled(Link)`
 
 
 export const CardImageContainer = styled.img`
-    margin: auto;
-    height: auto;
-    width: min(350px, 100%);
+    /* margin: auto; */
+    /* height: auto; */
+    height: 250px;
+    background-color: whitesmoke; //* temperary height and color */
+    width: min(350px, 100%); 
     flex: 1 1 45%;
     border-radius: 25px;
     transition: transform 1.5s ;

@@ -12,16 +12,17 @@ import { ProjectContext } from '../../context/projectContext';
 import heroImg from '../../images/manning-landscape-images/Brick-House/2b.jpg';
 // --------- STYLES --------
 import { HomePageContainer } from './home.page.styles';
+import firstImage from '../../images/manningScape1.jpg'
 
 // ------------- FUNCTION ------------> 
 const Homepage = () => {
     const [project, setProject] = useContext(ProjectContext);
+
     return (
         <HomePageContainer >
             <Hero hero={heroImg}>
                 <Banner title="Manning Landscape" subTitle="Creating your outdoor dreams" />
             </Hero>
-
             <InfoBanner />
 
             {project.map((project) => (
