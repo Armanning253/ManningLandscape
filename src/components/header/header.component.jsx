@@ -14,7 +14,7 @@ import {
 
 // -----------------------------------
 const Header = () => {
-    // <------- HOOKS ------------->
+    // <------- State ------------->
     const [open, setOpen] = useState(false);
     // <------- HELPER FUNCTIONS ------------->
     const toggleOpen = () => { setOpen(!open) };

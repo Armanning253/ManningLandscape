@@ -9,10 +9,9 @@ import InfoBanner from '../../components/infoBanner/infoBanner.component';
 // --------- CONTEXT -------->
 import { ProjectContext } from '../../context/projectContext';
 // --------- HERO IMAGE -------->
-import heroImg from '../../images/manning-landscape-images/Brick-House/2b.jpg';
+import heroImg from '../../images/manning-landscape-images/stoneWork/3.jpg';
 // --------- STYLES --------
 import { HomePageContainer } from './home.page.styles';
-import firstImage from '../../images/manningScape1.jpg'
 
 // ------------- FUNCTION ------------> 
 const Homepage = () => {
