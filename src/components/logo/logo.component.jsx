@@ -8,7 +8,7 @@ import { LogoContainer } from './logo.styles';
 
 const Logo = () => {
     return (
-        <LogoContainer to="/ManningLandscape" >
+        <LogoContainer to="/" >
             <gameIc.GiZigzagLeaf />
             <span href="#home">Manning Landscape</span>
         </LogoContainer>

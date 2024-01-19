@@ -16,7 +16,7 @@ export class App extends Component {
       <div>
         <Header />
         <Routes>
-          <Route exact path="/ManningLandscape" element={<Homepage />} />
+          <Route exact path="/" element={<Homepage />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/compare" element={<Compare />} />
           <Route path="/reviews" element={<About />} />

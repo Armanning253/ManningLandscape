@@ -9,7 +9,7 @@ import { NavContainer, NavLink } from './navbar.styles';
 const Navbar = ({ dropdown }) => {
     return (
         <NavContainer dropdown={dropdown}>
-            <NavLink to='/ManningLandscape'>
+            <NavLink to='/'>
                 <span>H<faAsm.FaHome />ME</span>
             </NavLink>
             <NavLink to='/portfolio'><span>portfolio</span></NavLink>
