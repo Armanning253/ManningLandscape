@@ -18,10 +18,3 @@ const FormInput = ({ handleChange, label, ...otherProps }) => {
 export default FormInput;
 
 
-{/* <Message
-            id="message"
-            name="message"
-            rows="8"
-            columns="30"
-            onChange={e => setMessage(e.value)}
-        /> */}

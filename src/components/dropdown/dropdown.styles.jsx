@@ -4,10 +4,12 @@ const slideOpen = keyframes`
     from { transform: translatey(-100%); }
     to { transform: translatey(0); }
 `;
-const slideClose = keyframes`
-    from { transform: translateX(0); }
-    to { transform: translateX(100%); }
-`;
+
+// ! slide close needs a booleen check if open
+// const slideClose = keyframes`
+//     from { transform: translatey(0); }
+//     to { transform: translatey(-100%); }
+// `;
 
 
 
